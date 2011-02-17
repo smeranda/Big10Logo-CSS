@@ -1,0 +1,150 @@
+/*
+
+Styles specific just to the Big 10 logo
+
+*/
+#logo { /*wrapper*/
+	margin: 0 auto;
+	width:  902px;
+	font-size: 1em;
+}
+.letter {
+	display: inline-block;
+	position: relative;
+	height: 50px;
+	width: 300px;
+	height: 342px;
+}
+#b {
+	width: 360px;
+}
+#b > div {
+	height: 100%;
+}
+#b div div {
+	background: #000;
+	display: block;
+	position: relative;
+}
+#b_top {
+	height: 49%;
+	-webkit-border-radius:0px 95px 90px 0;
+	-moz-border-radius:0px 95px 90px 0;
+	border-radius:0px 95px 90px 0;
+	width: 352px;
+}
+#b_top:before{
+	width: 41px;
+	height: 78px;
+	position: absolute;
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	content: " ";
+}
+#b_top:after{
+	width: 68px;
+	height: 48px;
+	position: absolute;
+	background: #FFF;
+	bottom: 30px;
+	left: 150px;
+	content: " ";
+	-webkit-border-radius:0px 10px 10px 0;
+	-moz-border-radius:0px 10px 10px 0;
+	border-radius:0px 10px 10px 0;
+}
+#b_bottom {
+	height: 51%;
+	-webkit-border-radius:0px 90px 95px 0;
+	-moz-border-radius:0px 90px 95px 0;
+	border-radius:0px 90px 95px 0;
+}
+#b_bottom:before{
+	width: 41px;
+	height: 78px;
+	position: absolute;
+	background: #FFF;
+	top: 0;
+	left: 0;
+	content: " ";
+}
+#b_bottom:after{
+	width: 68px;
+	height: 48px;
+	position: absolute;
+	background: #FFF;
+	top: 30px;
+	left: 150px;
+	content: " ";
+	-webkit-border-radius:0px 10px 10px 0;
+	-moz-border-radius:0px 10px 10px 0;
+	border-radius:0px 10px 10px 0;
+}
+#i {
+	width: 180px;
+	margin: 0 5px;
+	background: #0080CB;
+}
+#i:before{
+	height: 154px;
+	width: 41px;
+	position: absolute;
+	left: 0;
+	top: 88px;
+	background: #FFF;
+	content: " ";
+}
+#i:after{
+	background: #FFF;
+	height: 242px;
+	width: 39px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: " ";
+}
+#g {
+	width: 342px;
+	background: #0080CB;
+	-webkit-border-radius:85px;
+	-moz-border-radius:85px;
+	border-radius:85px;
+}
+#g:after{
+	background: #FFF;
+	height: 23px;
+	width: 115px;
+	position: absolute;
+	top: 115px;
+	right: 0;
+	content: " ";
+}
+#g_inner {
+	background: #FFF;
+	margin: auto auto;
+	width: 116px;
+	height: 154px;
+	margin-top: 88px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	position: relative;
+}
+#g_inner:after {
+	background: #0080CB;
+	height: 54px;
+	width: 30px;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	content: " ";
+}
+span.trademark {
+	font-size: 2.5em;
+	position: relative;
+	float: right;
+	color: #0080CB;
+	margin-top: -35px;
+	margin-right: -35px;
+}
