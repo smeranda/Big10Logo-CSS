@@ -64,7 +64,7 @@ p {
 p span {
 	font-style: italic;
 }
-.wrapper > p {
+p.info {
 	margin-top: 1.4em;
 }
 .footer {
