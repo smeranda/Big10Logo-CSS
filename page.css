@@ -64,6 +64,9 @@ p {
 p span {
 	font-style: italic;
 }
+.wrapper > p {
+	margin-top: 1.4em;
+}
 .footer {
 	border-top: 5px solid #20638a;
 	margin-top: 5em;
